@@ -6,9 +6,10 @@ import AppFilters from "./components/AppFilters.vue";
 import AppTodoList from "./components/AppTodoList.vue";
 import AppAddTodo from "./components/AppAddTodo.vue";
 import AppFooter from "./components/AppFooter.vue";
-import {Todo} from "./types/Todo.ts";
+
 import {Filter} from "./types/Filter.ts";
 import {Stats} from "./types/Stats.ts";
+import {Todo} from "@/types/Todo";
 
 interface State {
   todos: Todo[],

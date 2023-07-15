@@ -1,7 +1,8 @@
 <script lang="ts">
 import {defineComponent, PropType} from 'vue'
 import AppTodoItem from "./AppTodoItem.vue";
-import {Todo} from "./types/Todo.ts";
+import {Todo} from "@/types/Todo";
+
 
 export default defineComponent({
   components: {AppTodoItem},
